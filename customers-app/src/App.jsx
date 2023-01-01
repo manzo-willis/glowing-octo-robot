@@ -8,12 +8,12 @@ function App() {
               Sign in to your account
             </h2>
             <p class="mt-2 text-center text-sm text-gray-600">
-              Or <a
-                href="#"
-                class="font-medium text-teal-600 hover:text-teal-500"
-              >register register a new account here</a>
+              Or{' '}
+              <a href="#" class="font-medium text-teal-600 hover:text-teal-500">
+                register register a new account here
+              </a>
             </p>
-            <div className="mt-8 relative bg-white px-4 py-10 sm:px-10  shadow-lg ring-1 ring-slate-900/10 sm:mx-0 rounded-xl">
+            <div className="mt-8 relative bg-white px-4 py-10 shadow-lg ring-1 ring-slate-900/10 sm:mx-0 rounded-xl">
               <form action="#" method="POST">
                 <input type="hidden" name="remember" value="true" />
                 <div class="-space-y-px rounded-md shadow-sm mb-6">
